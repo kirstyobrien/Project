@@ -35,7 +35,15 @@ Iris-versicolor           7.0          3.4           5.1          1.8
 Iris-virginica            7.9          3.8           6.9          2.5
 
 
-We can now see that on average, iris setosa is smaller than iris vericolor or virginica in terms of sepal length, petal length an petal width, but has a wider sepal and that on average iris virginica has the largest sepal and petals. Next we want to visualise the data so that we can see the spread of the data and if we have any outliers.
+We can now see that on average, iris setosa is smaller than iris vericolor or virginica in terms of sepal length, petal length an petal width, but has a wider sepal and that on average iris virginica has the largest sepal and petals. Next we want to visualise the data so that we can see the spread of the data and if we have any outliers. To do this I decided to use box plots, these are simple graphs that show outliers and how the data is distributed.
+
+For this I produced three sets of figures (#visualising the data, #box plots (adapted from reference 3)), one for each class of iris. 
+
+Finally I wanted to loo at the data as a scattergram, to do this I used matplotlib (4).
+
+Its clear from the plots that there is a difference between the three classes of iris bin terms of oeta and sepal morphology, with the biggest diference being between the setona and the other two classes. 
+
+
 
 
 
@@ -45,3 +53,4 @@ References
 1. Wikipedia,'Iris Flower Data Set', accessed 10/04/2018 (https://en.wikipedia.org/wiki/Iris_flower_data_set).
 2. UCI machine learning repository, 'Iris Data Set', accessed 10/04.2018 (http://archive.ics.uci.edu/ml/datasets/Iris).
 3.Your first machine learning project in python, accessed 10/4/2018 https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+4. scattergrams. https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset
